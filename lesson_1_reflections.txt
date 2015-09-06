@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+   It compared each line of a file one by one and found differences between the old and the new copy . Though I practised on windows using FC and found that FC works really better in presenting a pretty output than what does diff does for mac users .  
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It could prevent me from the worry of loosing an important working code which I could never get back . In terms of errors in line of code my programs mostly contains thousands of lines of code and makes it practically impossible to track down a small code change or a grammatical error. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros : Manual commit keeps me store a clean history and only commits checkpoints I felt I might like to go back to .Storage is also well optimized , since I can store only important data . 
+
+    Cons : Something that I might feel less important and did not commit and stored , if required in future will be a big loss of time , money and energy. Automatic commits can help people go back to any level back or front they want to .
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Because in git multiple versions of the file might be required to compare and check together 
+   
+
+How can you use the commands git log and git diff to view the history of files?
+
+  git log can use git diff to display each change in the history. git log is for displaying a set of revisions, potentially including the diff between each revision and its parent, while git diff is used for displaying the difference between any two revisions in your repository.
+
+git diff can also be used to display diffs between the current working copy and the staging area (also known as the "index"), and diffs between the staging area and a revision in your repository, usually HEAD, while git log will only ever show committed code.
+
+So, they do have a bit of overlap, but neither one is a subset of the other. git log uses git diff for some forms of its display, and thus has the same options for setting how it calls git diff.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It makes me feel secure and helps me to test new adventures during my code freely without fear of what the new code does not work . 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Ofcourse what it is best for , Versioning control
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+As a programmer data is important , data is critical , and experiments are the only way at times to see if the new thought in mind works . But saving multiple backups manually with each thought is tiresome and if yiu forget one time , the next time you might regret for not having a copy . The access to history keeps the programmers secure and helps them to focus on their code without the fear of losing a previous working version.
+
+
+

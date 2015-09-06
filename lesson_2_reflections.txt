@@ -2,3 +2,6 @@ What happens when you initialize a repository? Why do you need to do it?
 
 A .git file is created by initializing an empty git repository
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+staging area is an intermediate area where files are not physically available in that area . Working directory points to an actual location on source computer and repository points to a phsyical location too .

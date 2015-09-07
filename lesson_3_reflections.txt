@@ -5,3 +5,19 @@ When there are multiple users working on the same copy.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 To make a proper selective selection
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork : Making a copy of an existing repo but not changing anything on original repo
+Clones : Making a copy of an existing repo and may change things on original directly by pushing them
+Branches : Only exists at the soucrce local or remote unless it has been pushed or pull 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+To avoid merging conflicts , and compare results more easliy
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Making local copies and maintaing backups at each stage .
+Pro : manual control , selective choice
+Cons : View history and restore will get difficult
